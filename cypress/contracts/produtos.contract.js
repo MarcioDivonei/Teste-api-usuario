@@ -9,5 +9,8 @@ const produtosSchema = Joi.object({
         quantidade: Joi.number(),
         _id: Joi.string()
     })
+    
 })
 export default produtosSchema;
+
+

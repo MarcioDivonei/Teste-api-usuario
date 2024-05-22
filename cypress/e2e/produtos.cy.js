@@ -8,7 +8,7 @@ describe('Testes da Funcionalidade Produtos', () => {
     });
 
     it('Deve validar contrato de produtos', () => {
-        cy.request('produtos').then(response => {
+        cy.request('produtos').then(response =>{
             return contrato.validateAsync(response.body)
         })
     });
