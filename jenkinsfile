@@ -12,7 +12,7 @@ pipeline {
                 bat 'npm install'
             }
         }
-        stage('Subir servidor') {
+        stage('Subir sservidor') {
             steps {
                 bat 'npm start'
             }
